@@ -41,3 +41,14 @@ ringtail_minus_fox
 ringtail_scalar <- 100 * ringtail
 ringtail_scalar
 ```
+
+## Dotproduct
+
+```{r}
+
+whale <- c(100, 10)
+dolphin <- c(20, 3)
+
+whale_dolphin <- whale * dolphin
+whale_dolphin
+```
