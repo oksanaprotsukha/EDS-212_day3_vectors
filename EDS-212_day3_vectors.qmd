@@ -2,10 +2,24 @@
 title: "EDS-212_day3_vectors"
 ---
 
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+## Vectors in R
 
 ```{r}
-1 + 1
+marmots <- c("blue","green","yellow",TRUE)
+
+# --- check the type of a parameter
+class(marmots)
+
+marmots
+```
+
+Create a numeric vector
+
+```{r}
+pika <- c(12.4, 6.8, 2.9, 8.9, 5)
+class(pika)
+```
+
+```{r}
+bear <- c(20L, 3L, 5L, 18L)
 ```
